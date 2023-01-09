@@ -1,7 +1,7 @@
 import React from "react";
 import {motion} from "framer-motion";
 import Typewriter from "typewriter-effect";
-import {BsArrowUpRight} from "react-icons/bs";
+import {BsArrowUpRight, BsChevronDown} from "react-icons/bs";
 import Anup from "../assets/Anup.png";
 
 const Home = () => {
@@ -44,7 +44,7 @@ const Home = () => {
               autoStart: true,
               loop: true,
               cursor: "",
-              wrapperClassName: "",
+              wrapperClassName: "typewriter",
             }}
           />
           
@@ -54,13 +54,13 @@ const Home = () => {
           </div>
           
           <aside>
-            <article>
-              <p>Get your <span>Frontend/MERN Projects Done.</span></p>
-            </article>
-            <article data-special>
+            {/* <article>
+              <p><span>5+</span>Projects</p>
+            </article> */}
+            {/* <article data-special>
               <p>Contact</p>
               <span>anupkr95@gmail.com</span>
-            </article>
+            </article> */}
           </aside>
 
         </div>
@@ -69,6 +69,7 @@ const Home = () => {
       <section>
         <img src={Anup} alt="Anup" />
       </section>
+      <BsChevronDown />
     </div>
   );
 };

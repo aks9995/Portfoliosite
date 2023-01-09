@@ -10,7 +10,7 @@ const Header = () => {
 
 const Navcontent = ()=>(
   <>
-  <h2>Anup</h2>
+  <h2>Anup Kumar</h2>
   <div>
   <a href="#Home">Home</a>
   <a href="#Work">Work</a>
