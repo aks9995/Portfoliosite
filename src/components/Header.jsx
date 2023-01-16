@@ -12,8 +12,8 @@ const Navcontent = ()=>(
   <>
   <h2>Anup Kumar</h2>
   <div>
-  <a href="#Home">Home</a>
-  <a href="#Work">Work</a>
+  <a href="#home">Home</a>
+  <a href="#work">Work</a>
   <a href="#Timeline">Timeline</a>
   <a href="#Contact">Contact</a>
   </div>
