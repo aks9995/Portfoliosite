@@ -14,10 +14,10 @@ const Navcontent = ()=>(
   <div>
   <a href="#home">Home</a>
   <a href="#work">Work</a>
-  <a href="#Timeline">Timeline</a>
-  <a href="#Contact">Contact</a>
+  <a href="#timeline">Skills</a>
+  <a href="#contact">Contact</a>
   </div>
-  <a href="mailto:anupkr95@gmail.com"><button>Email</button></a>
+  <a href="#footer"><button>Socials</button></a>
     </>
 )
 

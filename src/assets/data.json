@@ -7,27 +7,22 @@
         "imgSrc": "./images/qkart.png"
       }, 
       {
-        "title": "QKart Frontend",
-        "description": "QKart is an e-commerce application offering a variety of products for customers to choose from.",
-        "url": "https://qkart-frontend-ak95.netlify.app",
-        "imgSrc": "./images/qkart.png"
+        "title": "QTrip Dynamic",
+        "description": "QTrip is a travel website aimed at travellers looking for a multitude of adventures in different cities.",
+        "url": "https://qtrip-dynamic-ak95.netlify.app",
+        "imgSrc": "./images/qtrip-dynamic.png"
       }, 
       {
-        "title": "QKart Frontend",
-        "description": "QKart is an e-commerce application offering a variety of products for customers to choose from.",
-        "url": "https://qkart-frontend-ak95.netlify.app",
-        "imgSrc": "./images/qkart.png"
+        "title": "Xboard",
+        "description": "XBoard is a News Feed website that will feature the latest news for select topics, from Flipboard.",
+        "url": "https://newsfeed-ak95.netlify.app",
+        "imgSrc": "./images/xboard.png"
       }, 
       {
-        "title": "QKart Frontend",
-        "description": "QKart is an e-commerce application offering a variety of products for customers to choose from.",
-        "url": "https://qkart-frontend-ak95.netlify.app",
-        "imgSrc": "./images/qkart.png"
-      }, {
-        "title": "QKart Frontend",
-        "description": "QKart is an e-commerce application offering a variety of products for customers to choose from.",
-        "url": "https://qkart-frontend-ak95.netlify.app",
-        "imgSrc": "./images/qkart.png"
+        "title": "QTrip Static",
+        "description": "QTrip is a travel website aimed at travellers looking for a multitude of adventures in different cities.",
+        "url": "https://qtrip-ak.netlify.app",
+        "imgSrc": "./images/qtripstatic.png"
       }  
     ]
   }

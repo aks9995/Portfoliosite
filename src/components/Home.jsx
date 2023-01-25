@@ -1,14 +1,14 @@
 import React from "react";
 import {motion} from "framer-motion";
 import Typewriter from "typewriter-effect";
-import {BsArrowUpRight, BsChevronDown} from "react-icons/bs";
+import {BsArrowDown, BsChevronDown} from "react-icons/bs";
 import Anup from "../assets/Anup.png";
 
 const Home = () => {
   const animations ={
     h1:{
       initial:{
-        x:"-10%",
+        x:"-50%",
         opacity:0.5
       },
       whileInView:{
@@ -50,7 +50,7 @@ const Home = () => {
           
           <div>
           <a href="mailto:anupkr95@gmail.com">Hire Me</a>
-          <a href="#Work">Projects <BsArrowUpRight/> </a>
+          <a href="#work">Projects &nbsp;<BsArrowDown/> </a>
           </div>
           
           <aside>

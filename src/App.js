@@ -1,6 +1,10 @@
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Work from "./components/Work";
+import Timeline from "./components/Timeline";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import { Toaster } from "react-hot-toast";
 
 
 
@@ -11,6 +15,10 @@ function App() {
    <Header />
    <Home />
    <Work />
+   <Timeline />
+   <Contact />
+   <Footer />
+   <Toaster />
    </>
   );
 }
