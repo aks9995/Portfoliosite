@@ -8,7 +8,7 @@ const Home = () => {
   const animations ={
     h1:{
       initial:{
-        x:"-50%",
+        x:"-100%",
         opacity:0.5
       },
       whileInView:{

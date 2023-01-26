@@ -8,6 +8,7 @@
 @import "timeline";
 @import "contact";
 @import "Footer";
+@import "Mediaquery";
 
 
 
@@ -27,3 +28,9 @@ body {
     background-color: $color1;
     overflow-x: hidden;
 }
+
+.disableBtn {
+    color: $color6 !important;
+    background-color: $color1 !important;
+    cursor: not-allowed !important;
+  }
