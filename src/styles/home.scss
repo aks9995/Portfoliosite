@@ -3,17 +3,17 @@
     height:90vh;
     display:flex;
     
+    
     > section {
         width: 100%;
-
+        margin-bottom: 10vh;
     
         &:first-of-type {
-          // margin:auto;
-          padding-left: $p;
-    
-          > div {
+         padding-left: $p;
+         
+         > div {
             // border-top: 1px solid $color6_2;
-            height: 50%;
+            height: 0%;
             padding-top: 3rem;
             > h1 {
               font: 700 3.5rem $text1;
@@ -33,61 +33,27 @@
               align-items: center;
               > a {
                 &:first-of-type {
-                  background-color: $color3;
-                  color: $color1;
+                  border: 1px solid $color6;
+                  border-radius: 3px;
+                  background-color: transparent;
+                  color: $color6;
+                  font: 600 1.2rem $text2;
                   padding: 1rem 2rem;
                   transition: all 0.3s;
                   &:hover {
-                    background-color: $color6;
+                    background-color: $color2;
                   }
                 }
                 &:last-of-type {
                   font: 600 1.2rem $text2;
-                  color: $color5;
+                  color: $color6;
                   display: flex;
                   align-items: center;
                 }
               }
             }
         }
-    
-            // aside {
-            //   display: flex;
-            //   justify-content: space-between;
-            //   width: 50%;
-            // }
-    
-            // article {
-            //   margin: 2rem 0;
-            //   width: 1rem;
-            //   color: $color5;
-            //   position: absolute;
-    
-            //   &::after {
-            //     content: "";
-            //     background-color: $color4;
-            //     width: 100%;
-            //     height: 10rem;
-            //     border-radius: 50px;
-            //     position: absolute;
-            //     top: 20%;
-            //     left: 20%;
-            //     z-index: -1;
-            //   }
-            //   > p {
-            //     font: 600 2rem $text1;
-            //   }
-            //   > span {
-            //     font: 500 1rem $text2;
-            //   }
-            // }
-    
-        //     // article[data-special] {
-        //     //   width: 16rem;
-        //     // }
-        //   }
-        // }
-          }
+      }
 
 
         &:last-of-type{
@@ -102,7 +68,7 @@
                 content:"";
                 width: 35vmax;
                 height: 35vmax;
-                background-color: $color3;
+                background-color: $color2;
                 position: absolute;
                 z-index: -1;
                 border-radius: 50%;

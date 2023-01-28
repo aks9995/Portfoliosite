@@ -40,7 +40,7 @@ const Home = () => {
 
           <Typewriter
             options={{
-              strings: ["A Developer"],
+              strings: ["A Developer","MERN Stack","Frontend"],
               autoStart: true,
               loop: true,
               cursor: "",
@@ -53,15 +53,6 @@ const Home = () => {
           <a href="#work">Projects &nbsp;<BsArrowDown/> </a>
           </div>
           
-          <aside>
-            {/* <article>
-              <p><span>5+</span>Projects</p>
-            </article> */}
-            {/* <article data-special>
-              <p>Contact</p>
-              <span>anupkr95@gmail.com</span>
-            </article> */}
-          </aside>
 
         </div>
       </section>
