@@ -1,0 +1,54 @@
+#timeline {
+    margin-top: 4rem;
+  height: 100vh;
+  background-color: $color1;
+  overflow: hidden;
+
+  > h2 {
+    font: 700 2rem $text2;
+    width: fit-content;
+    border-bottom: 1px solid $color6_1;
+    padding: 0.5rem;
+    margin: auto;
+  }
+  .skill-container {
+    margin-top: 4rem;
+    width: 100%;
+    height: 80vh;
+    background-color: $color1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    > article {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: $color2;
+      height: 12rem;
+      width: 10rem;
+      padding: 3rem;
+      border: 1px solid $color6;
+      border-radius: 3px;
+      margin: 1rem;
+      &:hover {
+        scale: 1.1;
+        transition: ease-in 0.2s;
+        text-shadow: -3px 5px 11px $color6;
+    }
+
+      >.icon {
+        scale: 3;
+        color: $color1;
+        margin: 1.5rem;
+        &:hover {
+          scale: 3.5;
+      }
+      }
+      >h3{
+        color: $color1;
+      }
+    }
+  }
+}
