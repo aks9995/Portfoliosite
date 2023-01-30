@@ -203,13 +203,16 @@
     }
   
     #work {
+      > h2 {
+        margin-top: 8rem; 
+      }
       > section {
         > article {
           width: 100%;
-          height: 30vmax;
+          height: 35vmax;
         }
         .workItem {
-          height: 30vmax;
+          height: 35vmax;
           box-shadow: 0 0 5px $color1;
           > aside {
             padding: 1rem;
