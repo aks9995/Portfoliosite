@@ -161,7 +161,7 @@
   
   @media screen and (max-width: 600px) {
     #home {
-      // height: unset;
+      height: 100vh;
       flex-direction: column-reverse;
   
       > section {
