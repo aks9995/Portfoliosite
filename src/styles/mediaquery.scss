@@ -190,6 +190,7 @@
   
         &:last-of-type {
           border: none;
+          margin: none;
         }
       }
   
@@ -243,15 +244,4 @@
       }
     }
 
-    #timeline {
-      @keyframes scroll {
-        0%{
-          transform: translateY(+180px);
-        }
-        100%{
-          transform: translateY(-180px*2.5);
-        }
-        
-      }
-    }
   }
