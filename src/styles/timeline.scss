@@ -67,9 +67,7 @@
       animation-delay: 2000;
 
       &:hover {
-        scale: 1.1;
-        transition: ease-in 0.2s;
-        text-shadow: -3px 5px 11px $color6;
+         text-shadow: -3px 5px 11px $color6;
       }
 
       > .icon {
